@@ -22,7 +22,7 @@ public class Solution {
         {
             if (Map.ContainsKey(sym))
             {
-                if (CharList.Count == 0 || CharList.Peek() != (Char)Map[sym])  return false;
+                if (CharList.Count == 0 || CharList.Peek() != Map[sym])  return false;
                 CharList.Pop();
             }
             else CharList.Push(sym);
