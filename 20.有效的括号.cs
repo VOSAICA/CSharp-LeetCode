@@ -27,7 +27,7 @@ public class Solution {
             }
             else CharList.Push(sym);
         }
-        return CharList.Count == 0 ? true: false;
+        return CharList.Count == 0 ? true : false;
     }
 }
 // @lc code=end
