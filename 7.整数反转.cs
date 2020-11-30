@@ -5,8 +5,10 @@
  */
 
 // @lc code=start
-public class Solution {
-    public int Reverse(int x) {
+public class Solution
+{
+    public int Reverse(int x)
+    {
         int Ans = 0;
         while (x != 0)
         {

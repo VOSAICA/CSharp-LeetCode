@@ -8,7 +8,8 @@
 using System;
 using System.Collections.Generic;
 
-public class Solution {
+public class Solution
+{
     public bool IsValid(string s)
     {
         if (s.Length % 2 == 1) return false;

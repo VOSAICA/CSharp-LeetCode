@@ -7,8 +7,10 @@
 // @lc code=start
 using System.Collections;
 
-public class Solution {
-    public int[] TwoSum(int[] nums, int target) {
+public class Solution
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
         Hashtable hashtable = new Hashtable();
         hashtable.Add(nums[0], 0);
         for (int i=1; i<nums.Length; i++)
