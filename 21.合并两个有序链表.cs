@@ -22,10 +22,7 @@ public class Solution
     public ListNode MergeTwoLists(ListNode l1, ListNode l2)
     {
     #if true
-        if (l1 == null || l2 == null)
-        {
-            return l1 == null ? l2 : l1;
-        }
+        if (l1 == null || l2 == null)  return l1 == null ? l2 : l1;
         if (l1.val < l2.val)
         {
             l1.next = MergeTwoLists(l1.next, l2);
@@ -54,10 +51,8 @@ public class Solution
             Prev = Prev.next;
         }
         Prev.next = l1 == null ? l2 : l1;
-
         return PreHead.next;
     #endif
     }
 }
 // @lc code=end
-
